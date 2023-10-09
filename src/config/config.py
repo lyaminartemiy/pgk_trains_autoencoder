@@ -11,5 +11,7 @@ config = dict(
     save_images_dir="data/images",
 
     PATH_LOGS=Path("./logs/"),
-    LOG_FILE=f"log_{date_str}.log"
+    LOG_FILE=f"log_{date_str}.log",
+
+    RESCALE_SIZE=224
 )
