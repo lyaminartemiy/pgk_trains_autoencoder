@@ -1,4 +1,5 @@
 from src.parser.main_parser import main_parser
+from src.dataset.main_dataset import main_dataset
 from src.logging.logger import init_logger, get_logger
 
 
@@ -7,3 +8,4 @@ if __name__ == "__main__":
     logger = get_logger()
 
     parser = main_parser()
+    train_dataset = main_dataset()
