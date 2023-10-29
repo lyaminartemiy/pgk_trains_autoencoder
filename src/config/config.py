@@ -11,7 +11,7 @@ DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 config = dict(
     url_data_dir="data/url/urls.txt",
-    save_images_dir="data/images",
+    save_images_dir="../data/images",
 
     PATH_LOGS=Path("./logs/"),
     LOG_FILE=f"log_{date_str}.log",
